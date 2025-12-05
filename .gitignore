@@ -19,7 +19,7 @@ env/
 .pytest_cache/
 
 # Output videos (do NOT upload large files)
-*.mp4
+# *.mp4
 *.avi
 *.mov
 
