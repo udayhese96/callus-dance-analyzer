@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# VSCode settings
+.vscode/
+
+# Docker build artifacts
+*.log
+
+# pytest cache
+.pytest_cache/
+
+# Output videos (do NOT upload large files)
+*.mp4
+*.avi
+*.mov
+
+# Data/test output folders
+Output Video/
+tests/data/*.mp4
+tests/data/*.avi
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# SECURITY: DO NOT UPLOAD PRIVATE KEYS
+*.pem
+*.key
+*.crt
+
+# Ignore docker-compose override files
+docker-compose.override.yml
